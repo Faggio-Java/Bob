@@ -2,9 +2,10 @@
 
 port="ports/$1"
 
-if [ -d $port ] 
+
+if [ -d $port ]
 then
-   echo "Directory /path/to/dir exists."
+$port/build.sh
 else
-   echo "Error: Directory /path/to/dir does not exists."   
+   echo "Error: Couldn't find package $1"
 fi
