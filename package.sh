@@ -2,15 +2,13 @@
 
 port="ports/$1"
 
-[ ! -d /usr/bob ] && sudo mkdir /usr/bob
-
 if [ -d $port ]
 then
-   sh $port/build.sh
+   sh $port/build.sh && source ~/.bashrc
 else
    if [ $1 == "installed"  ]
    then
-      ls /usr/bob/
+      echo -e "$(</usr/bin/bob/ports/installed.sh)"
    else
       echo "Error: $1 couldn't be found"
    fi
