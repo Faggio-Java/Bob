@@ -12,3 +12,6 @@ Installation:
 ```
 sh install.sh
 ```
+<br/> <br/>
+Showcase:
+https://user-images.githubusercontent.com/63180896/152868302-095432a3-46e8-492f-b9a2-e0b7b91fa16a.mp4
