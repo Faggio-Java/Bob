@@ -9,5 +9,5 @@ make
 sudo mkdir /usr/bob/cmatrix
 sudo make install
 echo "alias cmatrix='/usr/local/bin/cmatrix'" >> ~/.bashrc
-echo "cMatrix" >> /usr/bin/ports/installed.sh
+echo "\e[97m[*] \e[91mcmatrix \e[37m- Terminal Based "The matrix like" implementation" >> /usr/bin/ports/installed.sh
 cd ../../ && sudo rm -r cmatrix
