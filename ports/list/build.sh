@@ -1,3 +1,3 @@
 #!bin/bash
 
-ls ports/
+ls /usr/bin/bob/ports/
