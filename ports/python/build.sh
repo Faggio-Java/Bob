@@ -8,4 +8,5 @@ cd Python-3.8.4
 ./configure --enable-optimizations --with-ensurepip=install
 make -j 8
 sudo make altinstall
+echo "\e[97m[*] \e[91mpython \e[37m- Python high-level scripting language" >> /usr/bin/ports/installed.sh
 cd .. && sudo rm -r py
