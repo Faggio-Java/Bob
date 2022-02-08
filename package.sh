@@ -1,6 +1,6 @@
 #!/bin/bash
 
-port="ports/$1"
+port="/usr/bin/bob/ports/$1"
 
 if [ -d $port ]
 then
