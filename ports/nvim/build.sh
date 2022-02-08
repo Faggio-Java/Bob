@@ -6,5 +6,5 @@ make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 cd ..
 echo "alias nvim='/usr/local/bin/nvim'" >> ~/.bashrc
-echo "\e[97m[*] \e[91mNeoVim \e[37m- Vim improved, a improved version of the vim>
+echo "\e[97m[*] \e[91mNeoVim \e[37m- Vim improved, a improved version of the vim text editor" >> /usr/bin/bob/installed.sh
 sudo rm -r neovim
